@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "lato", sans-serif;
+}
+h1, h2 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 800px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.box--star {
+    margin: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box--star hr {
+    width: 120px;
+    border: 2px solid #ffff;
+
+}
+
+.box--star p i {
+    font-size: 32px;
+}
+
+@media screen () {
+    
+}
